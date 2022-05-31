@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: release-notes/whats-new.html 
+keywords: 'what"s new, bugs, bug fixes, new features, enhancements' 
+summary: NetApp 会定期更新 Astra 数据存储，为您提供新功能，增强功能和错误修复。 
+---
+= 此版本的 Astra 数据存储中的新增功能
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/release-notes/
+
+
+我们很高兴地宣布， Astra Data Store 预览版提供了 2021.12.1 修补程序。
+
+
+
+== 2022 年 2 月 8 日（ 2021.12.1 ）
+
+适用于 Astra Data Store 预览版（ 21.12 ）的修补版本（ 2021.12.1 ）。
+
+* 在此版本中， Astra Data Store preview 支持使用 Calico CNI 的 VXLAN 配置。
+* Astra Data Store 预览版现在支持启用了 Calico WireGuard 的网络配置。
+* 更新的 AstraDSCluster.YAML `adsNetworkInterfaces` 一节提供了经过改进的描述性注释。
+* 现在，我们提供了新的 Astra Data Store 卸载脚本，作为 kubectl 命令卸载过程的一种更简单的替代方法。
+
+
+
+
+== 2021 年 12 月 21 日（ 21.12 ）
+
+初始版本的 Astra Data Store 预览版。
+
+* link:../concepts/intro.html["它是什么"]
+* link:../concepts/architecture.html["部署模式和组件"]
+* link:../get-started/requirements.html["入门所需的资源"]
+* link:../get-started/install-ads.html["安装"] 和 link:../get-started/setup-ads.html["设置"]
+* link:../use/kubectl-commands-ads.html["管理"] 和 link:../use/monitor-with-cloud-insights.html["监控"] 性能
+* link:../use/monitor-with-cloud-insights.html["使用 Cloud Insights 进行监控"]
+* link:../support/get-help-ads.html["获取帮助"] 和 link:../support/autosupport.html["使用自动支持监控"]
+
+
+
+
+== 了解更多信息
+
+* link:../release-notes/known-issues.html["已知问题"]
+* link:../release-notes/known-limitations.html["已知限制"]
+* https://kb.netapp.com/Special:Search?qid=&fpid=230&fpth=&query=netapp+data+store&type=wiki["NetApp 知识库文章"^]
+
